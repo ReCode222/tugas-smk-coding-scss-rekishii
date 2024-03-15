@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: antiquewhite;
+    height: 70vh;
+    width: 100%;
+}
+
+.top .bg-top img {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    filter: opacity(.25);
+}
+
+.top .aboutus {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.top .aboutus img {
+    border: 7px solid rgba(255, 255, 255, 0.79);
+    position: absolute;
+    width: 24%;
+    top: 11%;
+    left: 11%;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.top .aboutus {
+    width: 50%;
+}
+
+.top .aboutus2 span {
+    border-bottom: 5px solid  #ff8800;
+}
+
+.top .aboutus2 .desk {
+    padding-left: 8%;
+}
+
+.top .aboutus h2 {
+    width: 50%;
+}
+
+.top .aboutus2 h3 {
+    width:  70%;
+    color: #928f8b;
+    font-weight: 600;
+}
+
+.top .aboutus2 button {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  border: none;
+  background-color: #322304;
+  color: #f3ab1b;
+  padding: 1.5% 4%;
+  border-radius: 30px;
+}
+
+.card-main {
+    margin: 10% 10% 10% 10%;
+}
+
+.card-main .title h1 span {
+    border-bottom: solid 5px #ff8800;
+}
+
+.card-main .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+    margin-bottom: 4%;
+  }
+  .card-main .row .card .pilihan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: rgba(101, 101, 112, 0.2) 0px 10px 30px 0px;
+    width: 330px;
+    height: auto;
+    padding: 6%;
+    border-radius: 10px;
+    position: relative;
+  }
+  .card-main .row .card .pilihan .item .border {
+    width: 13%;
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    background-color: rgb(255, 255, 255);
+    padding: 1% 2.4% 1% 1%;
+    border-radius: 45px;
+  }
+  .card-main .row .card .pilihan .item .border .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5%;
+    position: relative;
+    font-size: small;
+    gap: 5%;
+  }
+  .card-main .row .card .pilihan .item .border .rating img {
+    width: 35%;
+  }
+  .card-main .row .card .pilihan .item img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .card-main .row .card .pilihan .item .section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-main .row .card .pilihan .item .section-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-main .row .card .pilihan .item .section-bottom .desk {
+    width: 57%;
+    font-weight: bold;
+    color: #868481;
+  }
+  .card-main .row .card .pilihan .item .section-bottom .cart {
+    padding-right: 10%;
+  }
+  .card-main .row .card .pilihan .item .section-bottom .cart img {
+    border-radius: 100%;
+    padding: 100%;
+    width: 150%;
+    background-color: #ff8800;
+  }
